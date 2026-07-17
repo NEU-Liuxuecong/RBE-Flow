@@ -19,7 +19,6 @@ School of Computer and Communication Engineering, Northeastern University at Qin
 
 - **Project Page:** https://github.com/NEU-Liuxuecong/RBE-Flow
 - **Paper:** https://arxiv.org/abs/2606.30492
-- **Code:** https://github.com/NEU-Liuxuecong/RBE-Flow
 - **Pretrained Weights:** See the *Pretrained Models* section below.
 
 ---
@@ -138,5 +137,10 @@ python test.py
 
 ## Citation
 ```bibtex
-
+@article{ding2026rbe,
+  title={RBE-Flow: Recurrent Bayesian Estimation on Feature Manifolds for Cross-Modal Registration},
+  author={Ding, Mengzhu and Song, Xin and Ding, Xiaoke and Ding, Hongwei and Liu, Xuecong},
+  journal={arXiv preprint arXiv:2606.30492},
+  year={2026}
+}
 ```
