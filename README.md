@@ -1,10 +1,10 @@
-# ECCV (ECCV 2026)
+# RBE-Flow (ECCV 2026)
 ### [Project Page](https://github.com/NEU-Liuxuecong/RBE-Flow) 
 Official implementation of **RBE-Flow: Recurrent Bayesian Estimation on Feature Manifolds for Cross-Modal Registration**.
 
 ## Links
 - **Code**: [GitHub Repository](https://github.com/NEU-Liuxuecong/RBE-Flow)
-- **Paper**: [arXiv]()
+- **Paper**: [arXiv](https://arxiv.org/abs/2606.30492)
 - **Pretrained Weights**: [Release](https://github.com/NEU-Liuxuecong/RBE-Flow/releases)
 
 ## Authors
@@ -16,7 +16,7 @@ Official implementation of **RBE-Flow: Recurrent Bayesian Estimation on Feature 
 
 
 ## Data Preparation
-To evaluate/train CRFT, you will need to download the required datasets. 
+To evaluate/train RBE-Flow, you will need to download the required datasets. 
 * [RoadScene]()
 * [OSdataset]()
 * [WHU-OPT-SAR]()
