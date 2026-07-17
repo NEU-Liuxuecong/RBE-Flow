@@ -1,0 +1,14 @@
+{
+    "dataset": {
+        "name": "Sintel",
+        "root_dir": "/media/ubuntu/data4t/Dataset/Sintel",
+        "pass_name": "clean",
+        "batch_size": 4,
+        "num_workers": 4
+    },
+    "training": {
+        "learning_rate": 1e-4,
+        "epochs": 100,
+        "weight_decay": 1e-4
+    }
+}
