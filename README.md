@@ -33,51 +33,15 @@ RBE-Flow is a recurrent Bayesian feature-flow estimation framework for cross-mod
 
 ---
 
-# Dataset Preparation
+## Data Preparation
 
 To facilitate reproducible evaluation, we release the benchmark test datasets used in the ECCV 2026 paper.
 
-## Released Test Datasets
+### Released Test Datasets
 
-### OSdataset (Test Set)
-
-Baidu Netdisk:
-
-https://pan.baidu.com/s/1hnOdeHOop2dopEtwm234KA
-
-Extraction Code:
-
-```text
-X3N6
-```
-
----
-
-### RoadScene (Test Set)
-
-Baidu Netdisk:
-
-https://pan.baidu.com/s/1-Aencnz5GXsQtuT_KXSkbg
-
-Extraction Code:
-
-```text
-C8qs
-```
-
----
-
-### WHU-OPT-SAR (Test Set)
-
-Baidu Netdisk:
-
-https://pan.baidu.com/s/1R8RAtC5gNq5diXddZg7WCg
-
-Extraction Code:
-
-```text
-Te9n
-```
+* [OSdataset (Test Set)](https://pan.baidu.com/s/1hnOdeHOop2dopEtwm234KA) (Code: `X3N6`)
+* [RoadScene (Test Set)](https://pan.baidu.com/s/1-Aencnz5GXsQtuT_KXSkbg) (Code: `C8qs`)
+* [WHU-OPT-SAR (Test Set)](https://pan.baidu.com/s/1R8RAtC5gNq5diXddZg7WCg) (Code: `Te9n`)
 
 ---
 
