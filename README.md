@@ -1,57 +1,108 @@
 # RBE-Flow (ECCV 2026)
-### [Project Page](https://github.com/NEU-Liuxuecong/RBE-Flow) 
-Official implementation of **RBE-Flow: Recurrent Bayesian Estimation on Feature Manifolds for Cross-Modal Registration**.
 
-## Links
-- **Code**: [GitHub Repository](https://github.com/NEU-Liuxuecong/RBE-Flow)
-- **Paper**: [arXiv](https://arxiv.org/abs/2606.30492)
-- **Pretrained Weights**: [Release](https://github.com/NEU-Liuxuecong/RBE-Flow/releases)
+Official implementation of
+
+> **RBE-Flow: Recurrent Bayesian Estimation on Feature Manifolds for Cross-Modal Registration**  
+> European Conference on Computer Vision (ECCV), 2026
+
+---
 
 ## Authors
+
 **Mengzhu Ding, Xin Song, Xiaoke Ding, Hongwei Ding, Xuecong Liu**
 
+School of Computer and Communication Engineering, Northeastern University at Qinhuangdao
+
+---
+
+## Resources
+
+- **Project Page:** https://github.com/NEU-Liuxuecong/RBE-Flow
+- **Paper:** https://arxiv.org/abs/2606.30492
+- **Code:** https://github.com/NEU-Liuxuecong/RBE-Flow
+- **Pretrained Weights:** See the *Pretrained Models* section below.
+
+---
 
 ## Overview
-<img src="assets/over.pdf">
 
+RBE-Flow is a recurrent Bayesian feature-flow estimation framework for cross-modal image registration. The proposed method formulates feature flow estimation as a recursive Bayesian inference process on feature manifolds, enabling reliable correspondence estimation under severe modality discrepancies and geometric transformations.
 
-## Data Preparation
-To evaluate/train RBE-Flow, you will need to download the required datasets. 
-* [RoadScene]()
-* [OSdataset]()
-* [WHU-OPT-SAR]()
+<p align="center">
+  <img src="assets/overview.png" width="100%">
+</p>
 
+---
 
-You can create symbolic links to wherever the datasets were downloaded in the `datasets` folder
+# Dataset Preparation
 
-```Shell
-├── datasets
-    ├── os_dataset
-        ├── train
-           ├── image_pair
-           ├── truth_flow
-           ├── datum
-        ├── test
-           ├── image_pair
-           ├── truth_flow
-           ├── datum
-        ├── val
-           ├── image_pair
-           ├── truth_flow
-           ├── datum
-     ├── RoadScene
-        ├── train
-           ├── image_pair
-           ├── truth_flow
-           ├── datum
-        ├── test
-           ├── image_pair
-           ├── truth_flow
-           ├── datum
-        ├── val
-           ├── image_pair
-           ├── truth_flow
-           ├── datum
+To facilitate reproducible evaluation, we release the benchmark test datasets used in the ECCV 2026 paper.
+
+## Released Test Datasets
+
+### OSdataset (Test Set)
+
+Baidu Netdisk:
+
+https://pan.baidu.com/s/1hnOdeHOop2dopEtwm234KA
+
+Extraction Code:
+
+```text
+X3N6
+```
+
+---
+
+### RoadScene (Test Set)
+
+Baidu Netdisk:
+
+https://pan.baidu.com/s/1-Aencnz5GXsQtuT_KXSkbg
+
+Extraction Code:
+
+```text
+C8qs
+```
+
+---
+
+### WHU-OPT-SAR (Test Set)
+
+Baidu Netdisk:
+
+https://pan.baidu.com/s/1R8RAtC5gNq5diXddZg7WCg
+
+Extraction Code:
+
+```text
+Te9n
+```
+
+---
+
+The released datasets should be organized as follows:
+
+```text
+datasets
+├── os_dataset
+│   └── test
+│       ├── image_pair
+│       ├── truth_flow
+│       └── datum
+│
+├── RoadScene
+│   └── test
+│       ├── image_pair
+│       ├── truth_flow
+│       └── datum
+│
+└── WHU
+    └── test
+        ├── image_pair
+        ├── truth_flow
+        └── datum
 ```
 
 ## Requirements
