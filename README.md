@@ -11,15 +11,15 @@ Official implementation of
 
 **Mengzhu Ding, Xin Song, Xiaoke Ding, Hongwei Ding, Xuecong Liu**
 
-School of Computer and Communication Engineering, Northeastern University at Qinhuangdao
+Northeastern University
 
 ---
 
 ## Resources
 
-- **Project Page:** https://github.com/NEU-Liuxuecong/RBE-Flow
-- **Paper:** https://arxiv.org/abs/2606.30492
-- **Pretrained Weights:** See the *Pretrained Models* section below.
+- **Project Page:** [GitHub Repository](https://github.com/NEU-Liuxuecong/RBE-Flow)
+- **Paper:** [arXiv](https://arxiv.org/abs/2606.30492)
+- **Pretrained Weights:** [Baidu Netdisk](https://pan.baidu.com/s/1aMBL0xXWeiYk4NyFJrLriA) (Code: `BpL3`)
 
 ---
 
