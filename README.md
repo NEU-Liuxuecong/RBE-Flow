@@ -19,7 +19,7 @@ Northeastern University
 
 - **Project Page:** [GitHub Repository](https://github.com/NEU-Liuxuecong/RBE-Flow)
 - **Paper:** [arXiv](https://arxiv.org/abs/2606.30492)
-- **Pretrained Weights:** [Baidu Netdisk](https://pan.baidu.com/s/1aMBL0xXWeiYk4NyFJrLriA) (Code: `BpL3`)
+
 
 ---
 
@@ -36,12 +36,6 @@ RBE-Flow is a recurrent Bayesian feature-flow estimation framework for cross-mod
 ## Data Preparation
 
 To facilitate reproducible evaluation, we release the benchmark test datasets used in the ECCV 2026 paper.
-
-### Released Test Datasets
-
-* [OSdataset (Test Set)](https://pan.baidu.com/s/1hnOdeHOop2dopEtwm234KA) (Code: `X3N6`)
-* [RoadScene (Test Set)](https://pan.baidu.com/s/1-Aencnz5GXsQtuT_KXSkbg) (Code: `C8qs`)
-* [WHU-OPT-SAR (Test Set)](https://pan.baidu.com/s/1R8RAtC5gNq5diXddZg7WCg) (Code: `Te9n`)
 
 ---
 
