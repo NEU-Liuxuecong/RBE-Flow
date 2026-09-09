@@ -33,35 +33,6 @@ RBE-Flow is a recurrent Bayesian feature-flow estimation framework for cross-mod
 
 ---
 
-## Data Preparation
-
-To facilitate reproducible evaluation, we release the benchmark test datasets used in the ECCV 2026 paper.
-
----
-
-The released datasets should be organized as follows:
-
-```text
-datasets
-├── os_dataset
-│   └── test
-│       ├── image_pair
-│       ├── truth_flow
-│       └── datum
-│
-├── RoadScene
-│   └── test
-│       ├── image_pair
-│       ├── truth_flow
-│       └── datum
-│
-└── WHU
-    └── test
-        ├── image_pair
-        ├── truth_flow
-        └── datum
-```
-
 ## Requirements
 ```shell
 conda create --name RBE-Flow python=3.9.7
